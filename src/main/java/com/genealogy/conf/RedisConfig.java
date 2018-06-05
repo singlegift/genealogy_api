@@ -16,7 +16,6 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.annotation.Resource;
-import java.lang.reflect.Method;
 import java.util.HashSet;
 import java.util.Set;
 
