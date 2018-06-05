@@ -23,6 +23,7 @@ public class DemoController {
     @ApiOperation("用户列表")
     @GetMapping("/list")
     public List<User> list() {
+        int i = 1 / 0;
         return userService.selectList();
     }
 }
